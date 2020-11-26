@@ -544,6 +544,20 @@ header {
   font-weight: 700;
 }
 
+.privacy-text-2 m{
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  color: #020202;
+  color: #4c78c0;
+  padding-left: 50px;
+}
+
+.privacy-text-2 m:hover{
+  text-decoration: underline;
+  font-weight: 700;
+}
 
 
 
