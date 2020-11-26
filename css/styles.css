@@ -2,7 +2,7 @@
   
 
 body {
-    font-family:"font-family: Lato";
+  font-family: 'Lato', serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.6em;
@@ -295,7 +295,8 @@ header {
 .about-us h4 g{
   color:#8b8c8e;
 }
-  .about-us h2{
+  
+.about-us h2{
     font-size: 46px;
     color: #ffffff;
     text-decoration: underline;
@@ -434,6 +435,73 @@ header {
   text-align: center;
   font-weight: 100;
 }
+
+.privacy-text{
+  display:flex;
+  width: 100%;
+  background-color: #ffffff;
+  line-height: 30px;
+}
+
+.privacy-text-left{
+  flex:0.5;
+  padding-right: 115px;
+  padding-left: 154px;
+  height: 1080px;
+  
+
+}
+
+.privacy-text-right{
+  flex:0.5;
+  padding-top: 115px;
+  padding-right: 240px;
+  height: 1080px;
+
+}
+
+
+
+.privacy-text h2{
+  text-transform: uppercase;
+	font-weight: 700;
+    font-size: 2.25rem;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: #020202;
+}
+
+.privacy-text r{
+  text-decoration: underline;
+  color: #da333d;
+  font-family: lato, serif;
+  text-transform: uppercase;
+}
+
+.privacy-text h2{
+  text-transform: uppercase;
+	font-weight: 700;
+    font-size: 2.25rem;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: #020202;
+}
+
+.privacy-text h4{
+	  font-weight: 400;
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    color: #020202;
+}
+
+.privacy-text h4 b{
+  font-weight: 700; 
+}
+
+
 
 
 
