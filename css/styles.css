@@ -2,7 +2,7 @@
   
 
 body {
-    font-family:"font-family: Lato";
+  font-family: 'Lato', serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.6em;
@@ -160,8 +160,6 @@ header {
   
   }
   
-  
-  
   .esquerda{
     background-color:#f4f6f9;
     flex: 0.5;
@@ -298,7 +296,8 @@ header {
 .about-us h4 g{
   color:#8b8c8e;
 }
-  .about-us h2{
+  
+.about-us h2{
     font-size: 46px;
     color: #ffffff;
     text-decoration: underline;
@@ -346,13 +345,41 @@ header {
 }
 
 .about-us-text h2{
-  font-size: 36px;
+  text-transform: uppercase;
+	font-weight: 700;
+    font-size: 2.25rem;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: #020202;
+}
+
+.about-us-text p{
   font-weight: 400;
+  font-size: 1rem;
+  text-align: left;
+  font-family: lato, serif;
+  color: #020202;
+  line-height: 1.5rem; 
+}
+
+.about-us-text r{
+  text-decoration: underline;
+  color: red;
+  font-family: lato, serif;
+  text-transform: uppercase;
 }
 
 .about-us-text h4{
   font-size: 16px;
   font-weight: 100;
+}
+
+.about-us-text h22{
+  color: #222222;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
 }
 
 
@@ -410,6 +437,128 @@ header {
   font-weight: 100;
 }
 
+.privacy-text{
+  display:flex;
+  width: 100%;
+  background-color: #ffffff;
+  line-height: 30px;
+  border-bottom: 2px solid #eb9297;
+}
+
+.privacy-text-2{
+  display:flex;
+  width: 100%;
+  background-color: #ffffff;
+  line-height: 30px;
+}
+
+.privacy-text-left{
+  flex:0.5;
+  padding-right: 115px;
+  padding-left: 154px; 
+
+}
+
+.privacy-text-2-left{
+  flex:0.5;
+  padding-right: 115px;
+  padding-left: 154px; 
+
+}
+
+.privacy-text-right{
+  flex:0.5;
+  padding-top: 125px;
+  padding-right: 240px;
+
+}
+
+.privacy-text-2-right{
+  flex:0.5;
+  padding-right: 240px;
+}
+
+.privacy-text h2{
+  text-transform: uppercase;
+	font-weight: 700;
+    font-size: 2.25rem;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: #020202;
+}
+
+.privacy-text r{
+  text-decoration: underline;
+  color: #da333d;
+  font-family: lato, serif;
+  text-transform: uppercase;
+}
+
+.privacy-text-2 r{
+  text-decoration: underline;
+  color: #da333d;
+  font-family: lato, serif;
+  text-transform: uppercase;
+}
+
+.privacy-text h2{
+  text-transform: uppercase;
+	font-weight: 700;
+    font-size: 2.25rem;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: #020202;
+}
+
+.privacy-text h4{
+	  font-weight: 400;
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    color: #020202;
+}
+
+.privacy-text-2 h4{
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  color: #020202;
+}
+
+.privacy-text h4 b{
+  font-weight: 700; 
+}
+
+.privacy-text-2 h4 b{
+  font-weight: 700; 
+}
+
+.privacy-text h4 blue{
+  color: #4c78c0;
+}
+
+.privacy-text h4 blue:hover{
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.privacy-text-2 m{
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  color: #020202;
+  color: #4c78c0;
+  padding-left: 50px;
+}
+
+.privacy-text-2 m:hover{
+  text-decoration: underline;
+  font-weight: 700;
+}
 
 
 
