@@ -251,9 +251,9 @@ header {
     width: 100%;
     display: flex;
     background-color: #d82630;
-    font-family:"font-family: Lato";
-    
+    font-family:"font-family: Lato";  
   }
+
   .services-page h2{
     font-size: 46px;
     color: #ffffff;
@@ -289,6 +289,80 @@ header {
     background-image:url('..//img/service.jpg');
     background-size: cover;
   }
+
+  .specific-service-page{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    background-color: #222222;
+    font-family:"font-family: Lato";  
+  }
+
+  .specific-service-page h2{
+    font-size: 46px;
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 100;
+  }
+  .specific-service-page h4{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+
+  }
+
+  .specific-service-page-left{
+    flex: 0.5;
+  }
+
+  .specific-service-page-left-1{
+    padding-top: 100px;
+    padding-left: 115px;
+    
+  }
+
+  .specific-service-page-left-2{
+    padding-left: 115px;
+  }
+
+  .specific-service-text-right{
+    flex:0.5;
+    padding-top: 90px;
+    padding-right: 240px;
+  
+  }
+
+  .specific-service-text{
+    display:flex;
+    width: 100%;
+    background-color: #ffffff;
+    line-height: 30px;
+  }
+
+  .specific-service-text-left{
+    flex:0.5;
+    padding-right: 115px;
+    padding-left: 154px; 
+  
+  }
+
+  .specific-service-text h2{
+    text-transform: uppercase;
+    font-weight: 700;
+      font-size: 2.25rem;
+      text-align: left;
+      font-family: 'Playfair Display', serif;
+      text-transform: uppercase;
+      color: #020202;
+  }
+
+  .specific-service-text h4{
+	  font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    font-family: 'Lato', serif;
+    color: #020202;
+}
 
   .about-us{
     height: 640px;
@@ -514,16 +588,6 @@ header {
   text-transform: uppercase;
 }
 
-.privacy-text h2{
-  text-transform: uppercase;
-	font-weight: 700;
-    font-size: 2.25rem;
-    text-align: left;
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    color: #020202;
-}
-
 .privacy-text h4{
 	  font-weight: 400;
     font-size: 1rem;
@@ -721,9 +785,10 @@ header {
     color:#bebcbc;
     text-decoration: none;
     position: relative;
-    font-size: 28px;
-    margin: 20px;
+    font-size: 1rem;
+    margin: 1rem;
     line-height: 40px;
+    font-family: lato, serif;
   }
   
   .sidebar a:before {
