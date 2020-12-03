@@ -261,6 +261,7 @@ header {
   color: #df4e56;
   font-size: .7rem;
   font-weight: 400px;
+  text-decoration: none;
 }
 
 .item-flex a:hover{
