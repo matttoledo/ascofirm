@@ -33,7 +33,7 @@ header {
     vertical-align: middle;
     border: 0;
     position: relative;
-    height: 950px;
+    height: 700px;
     width: 100%;
     background-image: url('..//img/bg.jpg');
     background-size: cover;
@@ -827,6 +827,18 @@ header {
   height: 200px;
 }
 
+.txt-services a{
+  color: #df4e56;
+  font-size: .8rem;
+  font-weight: 700;
+  padding-left: 530px;
+  text-decoration: none;
+}
+
+.txt-services a:hover{
+  font-size: 1rem;
+  font-weight: 100%;
+  }
 
 
 
