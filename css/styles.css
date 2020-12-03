@@ -264,8 +264,8 @@ header {
 }
 
 .item-flex a:hover{
-font-weight: 700;
-}
+  font-weight: 700;
+  }
 
   .our-services-img{
   background-color: #FFF;  
