@@ -90,6 +90,20 @@ header {
     color: #d82630;
 }
 
+.footer a {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 100;
+  cursor: pointer;
+  line-height: 15px;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  font-size: 18px;
+  color: #d82630;
+}
+
 .footer-box{
     flex:0.3;
     padding: 0px 25px;
@@ -429,7 +443,7 @@ header {
 
 .about-us-text{
   display:flex;
-  height: 600px;
+  height: 300px;
   width: 100%;
   background-color: #ffffff;
   line-height: 30px;
@@ -461,10 +475,18 @@ header {
   text-transform: uppercase;
 }
 
-.about-us-text h4{
+.about-us-text-left h4{
   font-size: 16px;
   font-weight: 700;
   font-family: lato, serif;
+  padding-top: 0px;
+}
+
+.about-us-text-right h4{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: lato, serif;
+  padding-top: 120px;
 }
 
 .about-us-text h22{
@@ -636,6 +658,118 @@ header {
 }
 
 .privacy-text-2 m:hover{
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.carrers-text{
+  display:flex;
+  width: 100%;
+  background-color: #ffffff;
+  line-height: 30px;
+}
+
+.carrers-text-2{
+  display:flex;
+  width: 100%;
+  background-color: #ffffff;
+  line-height: 30px;
+}
+
+.carrers-text-left{
+  flex:0.5;
+  padding-right: 115px;
+  padding-left: 154px; 
+
+}
+
+.carrers-text-2-left{
+  flex:0.5;
+  padding-right: 115px;
+  padding-left: 154px; 
+
+}
+
+.carrers-text-right{
+  flex:0.5;
+  padding-top: 125px;
+  padding-right: 240px;
+
+}
+
+.carrers-text-2-right{
+  flex:0.5;
+  padding-right: 240px;
+}
+
+.carrers-text h2{
+  text-transform: uppercase;
+	font-weight: 700;
+    font-size: 2.25rem;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: #020202;
+}
+
+.carrers-text r{
+  text-decoration: underline;
+  color: #da333d;
+  font-family: lato, serif;
+  text-transform: uppercase;
+}
+
+.carrers-text-2 r{
+  text-decoration: underline;
+  color: #da333d;
+  font-family: lato, serif;
+  text-transform: uppercase;
+}
+
+.carrers-text h4{
+	  font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    font-family: 'Lato', serif;
+    color: #020202;
+}
+
+.carrers-text-2 h4{
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: left;
+  font-family: 'Lato', serif;
+  color: #020202;
+}
+
+.carrers-text h4 b{
+  font-weight: 700; 
+}
+
+.carrers-text-2 h4 b{
+  font-weight: 700; 
+}
+
+.carrers-text h4 blue{
+  color: #4c78c0;
+}
+
+.carrers-text h4 blue:hover{
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.carrers-text-2 m{
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  color: #020202;
+  color: #4c78c0;
+  padding-left: 50px;
+}
+
+.carrers-text-2 m:hover{
   text-decoration: underline;
   font-weight: 700;
 }
