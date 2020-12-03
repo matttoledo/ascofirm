@@ -239,6 +239,12 @@ header {
     font-size: 1rem;
     font-weight: 400px;
   }
+
+  .our-services h3{
+    color: #df4e56;
+    font-size: .7rem;
+    font-weight: 400px;
+  }
  
   .item-flex{
     width: 315px;
@@ -248,10 +254,15 @@ header {
     padding-top: 50px;
     padding-left: 20px;
     flex-shrink: 1;
-   
-    
 
   }
+
+.item-flex a{
+  color: #df4e56;
+  font-size: .7rem;
+  font-weight: 400px;
+}
+
   .our-services-img{
   background-color: #FFF;  
   width: 115px;
