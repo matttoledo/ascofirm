@@ -263,6 +263,10 @@ header {
   font-weight: 400px;
 }
 
+.item-flex a:hover{
+  font-weight: 700;
+  }
+
   .our-services-img{
   background-color: #FFF;  
   width: 115px;
