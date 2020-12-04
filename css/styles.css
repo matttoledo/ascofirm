@@ -9,7 +9,13 @@ body {
     display: flex;
     flex:1;
     flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
   }
+
+
 
 
 header {
@@ -453,7 +459,7 @@ header {
   }
 
   .about-us-center-blank{
-    width: 1920px;
+
     height: 90px;
     background-color: #ffffff;
   }
@@ -563,15 +569,12 @@ header {
   color:#ffffff;
   text-align: center;
   font-weight: 100;
-  padding-top: 7%;
+  padding-top: 5%;
 }
 
 .about-us-services h1:hover{
   font-size: 60px;
   color:#ffffff;
-  text-align: center;
-  font-weight: 100;
-  padding-top: 7%;
   text-decoration: underline overline;
 }
 
@@ -800,6 +803,15 @@ header {
   font-weight: 700;
 }
 
+.check-box{
+  display: flex;
+  font-family: lato, serif;
+}
+
+.check-box u{
+  text-decoration: underline;
+}
+
 .container-services{
   display:flex;
   flex-flow: column wrap;
@@ -829,8 +841,9 @@ header {
 
 .img-services{
   background-color: #99151c;
-  height: 440px;
+  height: 400px;
   flex-direction: column;
+  margin-right: 5%;
 }
 
 .txt-services{
@@ -841,7 +854,7 @@ header {
   color: #df4e56;
   font-size: .8rem;
   font-weight: 700;
-  padding-left: 530px;
+  padding-left: 480px;
   text-decoration: none;
 }
 
@@ -879,6 +892,16 @@ textarea:target{
 
 input{
   border: 0 none; 
+}
+
+input:checked{
+  color:red;
+}
+
+.test .check-box label{
+  font-size: .8rem;
+  width: 40%;
+  padding-left: 1%;
 }
 
   #ball {
