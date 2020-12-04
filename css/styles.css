@@ -200,9 +200,10 @@ header {
     
   
   }
+
   .services{
     display:flex;
-    padding: 144px 246px;
+    padding: 100px 246px;
     flex-direction: column;
 
   }
@@ -259,13 +260,13 @@ header {
 
 .item-flex a{
   color: #df4e56;
-  font-size: .7rem;
-  font-weight: 400px;
+  font-size: .5rem;
+  font-weight: 700;
   text-decoration: none;
 }
 
 .item-flex a:hover{
-  font-weight: 700;
+  font-size: .8rem;
   }
 
   .our-services-img{
@@ -555,7 +556,6 @@ header {
 
 .about-us-services:hover{
   background-color: #020202;
-  text-decoration: underline overline;
 }
 
 .about-us-services h1{
@@ -563,6 +563,16 @@ header {
   color:#ffffff;
   text-align: center;
   font-weight: 100;
+  padding-top: 7%;
+}
+
+.about-us-services h1:hover{
+  font-size: 60px;
+  color:#ffffff;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 7%;
+  text-decoration: underline overline;
 }
 
 .privacy-text{
@@ -840,7 +850,36 @@ header {
   font-weight: 100%;
   }
 
+.formulario{
+  padding-left: 155px;
+  padding-top: 30px;
+  }
 
+.test label{
+  font-family: lato, serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#test-form input.submit
+{
+  font-family: lato, serif;
+  background-color: #d82630;
+  color: white;
+}
+
+textarea{
+  border: 0 none;
+}
+
+textarea:target{
+  text-decoration: none;
+  border: 0 none;
+}
+
+input{
+  border: 0 none; 
+}
 
   #ball {
 
@@ -965,38 +1004,10 @@ header {
     line-height: 15px;
 }
   
-  .sidebar a:before {
-    content: "";
-    position: absolute;
-    width: 40%;
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    background-color: #ffffff;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-  }
-  
-  .sidebar a:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-  }
-  
-  
-  /* Active/current link */
-  .sidebar a.active {
-    
-    color: white;
-  }
-  
-  /* Links on mouse-over */
-  .sidebar a:hover:not(.active) {
-  
-    color: white;
+  .sidebar a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 1.2rem;
   }
   
   /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
@@ -1005,23 +1016,8 @@ header {
     padding: 1px 16px;
     height: 1000px;
   }
+
+
+
   
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
-  }
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
-    .sidebar a {
-      text-align: center;
-      float: none;
-    }
-  }
   
