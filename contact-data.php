@@ -1,29 +1,29 @@
-<?
+<?php
 
-# alterar a variavel abaixo colocando o seu email
+if(isset($_POST['email']) && !empty($_POST['email'])) {
 
-$destinatario = "danielmois1998@gmail.com";
+$name = addslashes($_POST['name']);
+$email = addslashes($_POST['email']);
+$phone = addslashes($_POST['phone']);
+$message = addslashes($_POST['message']);
 
-$nome = $_REQUEST['nome'];
-$email = $_REQUEST['email'];
-$message = $_REQUEST['message'];
-$phone = $_REQUEST['phone'];
+$to = "ascofirm@ascofirm.com";
+$subject = "Contato ASCONFIRM";
+$body = "Name: ".$name. "\r\n".
+        "Email: ".$email. "\r\n".
+        "Phone: ".$phone. "\r\n".
+        "Message: ".$message;
 
- // monta o e-mail na variavel $body
+$header = "From:daniel@ascofirm.com"."\r\n".
+            "Reply-To:".$email."\e\n".
+            "X=Mailer:PHP/".phpversion();
 
-$body = "===================================" . "\n";
-$body = $body . "FALE CONOSCO - TESTE COMPROVATIVO" . "\n";
-$body = $body . "===================================" . "\n\n";
-$body = $body . "Nome: " . $nome . "\n";
-$body = $body . "Email: " . $email . "\n";
-$body = $body . "Mensagem: " . $message . "\n\n";
-$body = $body . "===================================" . "\n";
-
-// envia o email
-mail($destinatario, $phone , $body, "From: $email\r\n");
-
-// redireciona para a página de obrigado
-header("location:index.html");
-
+if(mail($to,$subject,$body,$header)){
+    echo("Email enviado!!");
+}else{
+    echo("Tente novamente!");
+}
+ 
+}
 
 ?>

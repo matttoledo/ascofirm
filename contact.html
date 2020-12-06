@@ -57,15 +57,15 @@
         </div>
 
         <div class="test">
-        <form id="test-form" class="formulario">
-            <label class="name" for="name">Name</label><br>
-            <textarea style="resize: none" class="name" cols="70" rows="2"></textarea><br>
-            <label for="email">Email</label><br>
-            <textarea style="resize: none" class="email" cols="70" rows="2"></textarea><br>
-            <label for="phone">Phone</label><br>
-            <textarea style="resize: none" class="phone" cols="70" rows="2"></textarea><br>
-            <label for="message">Message</label><br>
-            <textarea style="resize: none" class="message" cols="70" rows="8"></textarea><br><br>
+        <form action= "contact-data.php" method="POST" id="test-form" class="formulario">
+            <label name = "name" class="name" for="name">Name</label><br>
+            <textarea style="resize: none" class="name" cols="70" rows="2" placeholder="enter your full name"></textarea><br>
+            <label name = "email" for="email">Email</label><br>
+            <textarea style="resize: none" class="email" cols="70" rows="2" placeholder="enter your email"></textarea><br>
+            <label name = "phone" for="phone">Phone</label><br>
+            <textarea style="resize: none" class="phone" cols="70" rows="2" placeholder="enter your phone number"></textarea><br>
+            <label name = "message" for="message">Message</label><br>
+            <textarea style="resize: none" class="message" cols="70" rows="8" placeholder="enter your message here"></textarea><br><br>
             
             <div class="check-box">
                 <input name="checkbox" type="checkbox" value="termo" required/>
